@@ -8,9 +8,11 @@ go 1.21
 // Changes from upstream:
 // - Experimenting with custom migration ordering logic
 // - Testing compatibility with newer Go versions
+// - Added sqlitecgo driver support for local testing
 require (
 	github.com/pressly/goose/v3 v3.17.0
 	github.com/spf13/cobra v1.8.0
+	github.com/mattn/go-sqlite3 v1.14.22
 )
 
 require (
